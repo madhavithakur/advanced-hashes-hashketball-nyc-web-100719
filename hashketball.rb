@@ -241,4 +241,6 @@ def winning_team
   game_hash.each do |place, team|
     team.each do |attribute, data|
       binding.pry
+    end
+  end 
 end 

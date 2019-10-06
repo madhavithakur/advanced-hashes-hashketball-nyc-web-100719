@@ -207,17 +207,11 @@ def big_shoe_rebounds
   game_hash.each do |place, team|
     team.each do |attribute, data|
       if attribute == :players
-        # binding.pry
         data.each do |player|
           if player[:shoe] > result
              result = player[:shoe]
              rebounds = player[:rebounds]
           end 
-          
-          # if key == :shoe
-          #   rebounds = :rebounds
-          #     result = val if val > result
-          #end
         end 
       end 
     end 
@@ -226,5 +220,12 @@ def big_shoe_rebounds
 end 
 
 def most_points_scored
-  
+  player_name = nil
+  result = 
+   game_hash.each do |place, team|
+    team.each do |attribute, data|
+      if attribute == :players
+        data.each do |player|
 end 
+
+

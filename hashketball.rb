@@ -203,6 +203,8 @@ def big_shoe_rebounds
    game_hash.each do |place, team|
     team.each do |attribute, data|
        if attributes == :players
+         data.each do |player|
+           
     
   end 
 end 

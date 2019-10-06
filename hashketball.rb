@@ -199,15 +199,17 @@ def player_stats(players_name)
 end 
 
 def big_shoe_rebounds
-  res
+  result = []
    game_hash.each do |place, team|
     team.each do |attribute, data|
        if attributes == :players
          data.each do |key, val|
            if key == :shoe
              result << val if val > result[0]
-           
-    
+           end
+         end 
+       end 
+     end 
   end 
 end 
 

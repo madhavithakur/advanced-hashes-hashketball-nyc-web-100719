@@ -244,6 +244,8 @@ def winning_team
     team.each do |attribute, data|
       total_points = 0
       f_team = nil
+      total_points += 
+      
       # if attribute == :players
       #   data.each do |player|
       #     total_points += player[:points]

@@ -247,7 +247,7 @@ def winning_team
        if attribute == :players
         data.each do |player|
           total_points += player[:points]
-          w_team = player[:team_name]
+          f_team = player[:team_name]
         end
          if w_points < total_points 
            

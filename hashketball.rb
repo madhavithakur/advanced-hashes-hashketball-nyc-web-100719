@@ -238,12 +238,12 @@ def most_points_scored
 end 
 
 def winning_team
-  f_team = nil
+  w_team = nil
   w_points = 0
   game_hash.each do |place, team|
     team.each do |attribute, data|
       total_points = 0
-      w_team = nil
+      f_team = nil
        if attribute == :players
         data.each do |player|
           total_points += player[:points]

@@ -252,7 +252,7 @@ def winning_team
          if w_points < total_points 
            w_points = total_points
            w_team = f_team
-           
+         end 
     end
   end 
-end 
+  return w_team

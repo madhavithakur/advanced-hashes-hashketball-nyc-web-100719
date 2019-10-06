@@ -209,7 +209,7 @@ def big_shoe_rebounds
         
         data.each do |key, val|
           if key == :shoe
-            player = :player_name 
+            player = :rebounds
               result = val if val > result
           end
         end 

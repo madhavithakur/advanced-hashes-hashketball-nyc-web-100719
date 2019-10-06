@@ -255,20 +255,6 @@ def winning_team
   w_team
 end 
       
-      # if attribute == :players
-      #   data.each do |player|
-      #     total_points += player[:points]
-      #     f_team = player[:team_name]
-      #   end
-      #   if w_points < total_points 
-      #     w_points = total_points
-      #     w_team = f_team
-      #   end 
-#       end
-#     end
-#   end 
-#   return w_team
-# end 
 
 def player_with_longest_name
     player_name = nil
@@ -286,9 +272,9 @@ def player_with_longest_name
   player_name
 end
           
-  def long_name_steals_a_ton
+  # def long_name_steals_a_ton
     
-  end 
+  # end 
 
 
 

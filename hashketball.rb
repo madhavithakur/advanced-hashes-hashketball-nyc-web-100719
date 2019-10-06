@@ -253,6 +253,7 @@ def winning_team
            w_points = total_points
            w_team = f_team
          end 
+       end
     end
   end 
   return w_team

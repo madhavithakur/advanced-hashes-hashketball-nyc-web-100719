@@ -253,7 +253,6 @@ def winning_team
           w_team = f_team
       end 
     end
-  end 
   w_team
 end 
       

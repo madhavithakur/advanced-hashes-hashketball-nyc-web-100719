@@ -243,10 +243,14 @@ def winning_team
   game_hash.each do |place, team|
     team.each do |attribute, data|
       total_points = 0
+      w_team = nil
        if attribute == :players
         data.each do |player|
           total_points += player[:points]
-          
+          w_team = player[::team_name]
+        end
+         if w_points < total_points 
+           
     end
   end 
 end 

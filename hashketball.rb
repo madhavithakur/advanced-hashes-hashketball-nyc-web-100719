@@ -210,8 +210,9 @@ def big_shoe_rebounds
          binding.pry
         data.each do |player|
           if player[:shoe] > result
-          
-          
+             result = player[:shoe]
+             rebounds = player[:rebounds]
+          end 
           
           # if key == :shoe
           #   rebounds = :rebounds
@@ -221,7 +222,7 @@ def big_shoe_rebounds
       end 
     end 
   end 
-  result
+ rebounds
 end 
 
 def most_points_scored

@@ -209,10 +209,14 @@ def big_shoe_rebounds
       if attribute == :players
          binding.pry
         data.each do |player|
-          if key == :shoe
-            rebounds = :rebounds
-              result = val if val > result
-          end
+          
+          
+          
+          
+          # if key == :shoe
+          #   rebounds = :rebounds
+          #     result = val if val > result
+          #end
         end 
       end 
     end 

@@ -250,6 +250,8 @@ def winning_team
           f_team = player[:team_name]
         end
          if w_points < total_points 
+           w_points = total_points
+           w_team = f_team
            
     end
   end 

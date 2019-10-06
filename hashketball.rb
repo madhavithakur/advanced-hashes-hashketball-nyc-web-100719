@@ -266,7 +266,7 @@ def player_with_longest_name
       if attribute == :players
         data.each do |player|
           if player[:player_name].count > player_name.count
-            result = player[:player_name]
+            player_name = player[:player_name]
             
 
 

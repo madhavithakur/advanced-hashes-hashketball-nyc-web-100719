@@ -241,7 +241,7 @@ def winning_team
   w_team = nil
   w_points = 0
   game_hash.each do |place, team|
-    team.each do |attribute, data|
+    #team.each do |attribute, data|
       total_points = 0
       f_team = nil
       total_points += team[:players][:points]
